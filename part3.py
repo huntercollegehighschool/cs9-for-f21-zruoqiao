@@ -19,3 +19,12 @@ Enter the height: 3
 """
 
 #write your code here 
+
+base = int(input("Enter an integer: "))
+
+height = int(input("Enter another integer: "))
+
+row = "*"
+
+for i in range(1, height+1):
+  print(row * base)
